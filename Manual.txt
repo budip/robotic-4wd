@@ -1,0 +1,27 @@
+First of all, you need to upload sample code to Arduino Duemilanove ATmega328 Board via arduino software, pls check http://arduino.cc/hu/Main/Software
+
+Sample code download link: http://www.bizoner.com/download/moter4wd_auto_sample.zip
+
+Then you should install Arduino L298P 2A Motor Shield and Arduino Sensor I/O Expansion Shield to Arduino Duemilanove ATmega328 Board, like this: http://www.bizoner.com/index.php?main_page=popup_image_additional&pID=221&pic=2&products_image_large_additional=images/bzb8780050_03
+(On this step, you may connect the 9v power cable to Duemilanove Board, and connect the battery pack to 2A Motor Shield,
+ at the same time, you need to connect the 2A Motor Shield to 4WD Chassiss like this: http://www.bizoner.com/index.php?main_page=popup_image_additional&pID=211&pic=2&products_image_large_additional=images/bzb8780032_01_03)
+ 
+Finally, pls install APC220 Module to Arduino Sensor I/O Expansion Shield, and install APC220 Module to your pc USB port like this:
+http://www.bizoner.com/index.php?main_page=popup_image_additional&pID=221&pic=0&products_image_large_additional=images/bzb8780050_01
+http://www.bizoner.com/index.php?main_page=popup_image_additional&pID=221&pic=1&products_image_large_additional=images/bzb8780050_02
+( APC220 wireless connection setup doc: http://www.bizoner.com/download/APC220-manual.pdf)
+ 
+Now, according to the sample code, you can send char like 'x', 'l', 'r' via Serial port to Duemilanove Board, so that you can controll the4wd robot.
+
+-------------------------------------
+APC220 Driver: http://www.bizoner.com/download/CP210x_VCP_Win2K_XP_S2K3.zip
+APC220 Config software: http://www.bizoner.com/download/APC220.zip
+Arduino Sample Code: http://www.bizoner.com/download/moter4wd_auto_sample.zip
+Motor Connection: http://www.bizoner.com/index.php?main_page=popup_image_additional&pID=211&pic=2&products_image_large_additional=images/bzb8780032_01_03
+Chassiss Install Manual: http://www.bizoner.com/bzb8780032_manual.html
+-------------------------------------
+
+Best regards,
+Bizoner.com
+
+Note: uploaded to GitHub - 09/26/2014 - BP
